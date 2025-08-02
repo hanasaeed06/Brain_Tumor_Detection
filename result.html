@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p><strong>Prediction:</strong> {{ prediction }}</p>
+    <p><strong>Confidence:</strong> {{ confidence }}%</p>
+    
+    <h2>Uploaded MRI Image</h2>
+    <img src="{{ url_for('display_image', filename=filename) }}" width="300">
+
+    {% if highlighted_img %}
+    <h2>Tumor Highlighted</h2>
+    <img src="{{ url_for('display_image', filename=highlighted_img) }}" width="300">
+    {% else %}
+    <h2>No Tumor Detected</h2>
+    {% endif %}
+    <br><br>
+    <a href="/">Upload Another Image</a>
+</body>
+</html>
