@@ -12,7 +12,7 @@ This is a Flask-based web application that detects brain tumors from MRI scans u
 ### 📁 Project Setup
 
 *Download Full Project with Model and Dataset*  
-📥 [Download from Google Drive](https://drive.google.com/file/d/1WakPxuqYstFmEtZ4MJbwLq48jmEZ2klU/view?usp=drive_link)
+📥 [Download from Google Drive](https://drive.google.com/drive/folders/1oHO-jav92fDETDbby_EsRmB6d_vzS6Gu?usp=sharing)
 
 ---
 
